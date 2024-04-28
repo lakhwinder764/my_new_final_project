@@ -1,0 +1,16 @@
+.sidebar_chats{
+    
+   
+    flex:1;
+    flex-direction: column;
+       overflow: autp;
+}
+.sidebar_chat{
+    display: flex;
+    cursor:pointer;
+
+}
+
+.sidebarchat_info{
+    padding: 14px;
+}

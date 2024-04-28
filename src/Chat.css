@@ -1,0 +1,135 @@
+.chat{
+    flex:0.65;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom right,#181a20,
+    #191b21,
+    #1a1c25,
+    #1c1e2d,
+    #1c1e2e,
+    #1d1f32,
+    #1d2033,
+    #20223c,
+    #20233f,
+    #1f223b,
+    #1e2139);
+}
+
+.chat_org {
+  flex:0.65;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to bottom right,
+    #eef0f9
+   );
+}
+.chat_header{
+  padding-left:10px;
+  display:flex;
+  align-items: center;
+  border: 'none';   
+}
+
+.chatheader_info_mode>h3{
+  font-weight: bold;
+  font-size: 24px;
+  color:#000000
+}
+.chatheader_info{
+      flex:1;
+}
+.chatheader_info>h3{
+    font-weight: bold;
+    font-size: 24px;
+    color:#ffffff
+}
+.chatheader_info>p{
+    color:gray;
+}
+.chat_body{
+   flex:1;
+    padding:20px;
+    background-position:center;
+    overflow:auto;
+}
+.chat_message{
+    /* position:relative; */
+    font-size: 16px;
+    padding:10px;
+    background-color: #32375a;
+    border-radius: 10px 10px 10px 0px;
+    /* width:fit-content; */
+    /* margin-bottom: 30px; */
+    color:#ffffff;
+    /* word-break: break-all; */
+    /* max-width:70%   */
+
+
+}
+
+.chat_reciever{
+    /* margin-left:auto; */
+    background-color: #2a2d3b;
+    color: #787eab;
+    border-radius: 10px 10px 0px 10px;
+}
+.chat_mode_reciever{
+  /* margin-left:auto; */
+  background-color: #32375a;
+  color: #bec0cb;
+  border-radius: 10px 10px 0px 10px;
+}
+
+.user_mode{
+  /* margin-left:auto; */
+  background-color: #9ca1c8;
+  color: #ffffff;
+  border-radius: 10px 10px 0px 10px;
+}
+
+.chat_timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chat_name{
+    position:absolute;
+    top:-15px;
+    font-weight: 800;
+    font-size:xx-small;
+   
+
+}
+.chat_footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:62px;
+  border-top: 1px solid lightgray;
+}
+
+.chat_footer>form{
+    flex:1;
+    display:flex;
+}
+
+    .icon_mode {
+       font-size: 20;
+       animation: shrinkRotate 2s infinite ease-in-out;
+      }
+      @keyframes shrinkRotate {
+        0% {
+          transform: scale(1) rotate(0deg);
+        }
+        50% {
+          transform: scale(0.5) rotate(180deg);
+        }
+        100% {
+          transform: scale(1) rotate(360deg);
+        }
+      }
+
+.icon{
+  font-size: 20;
+}      
